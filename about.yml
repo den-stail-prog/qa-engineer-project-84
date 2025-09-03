@@ -1,9 +1,8 @@
----
 name: Денис Бедняков # ваше имя
 job: QA Engineer
 level: junior
 email: den-stail@mail.ru
-description: |
+description: 
 Люблю все что связано с ПК
 
 skills: # список навыков в виде списка, напишите что-то свое
