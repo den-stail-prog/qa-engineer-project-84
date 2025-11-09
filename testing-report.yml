@@ -21,14 +21,14 @@
 - summary: |
     Фильтрация товаров по категории
   status: pass
- 
+
 - summary: |
     Фильтрация товаров по производителю
   status: pass
- 
+
 - summary: |
     Проверка локализации
-  status:  fail
+  status: fail
 
 - summary: |
     Сортировка по возрастанию цены
