@@ -1,49 +1,39 @@
 - summary: |
     Проверка корректного  отображения главной страницы
-  status: |
-    pass
+  status: pass
 
 - summary: |
     Проверка поиска товаров
-  status: |
-    pass
+  status: pass
 
 - summary: |
     Проверка карточки товара
-  status: |
-    pass
+  status: pass
 
 - summary: |
     Проверка работы корзины
-  status: |
-    pass
+  status: pass
 
 - summary: |
     Проверка оформления заказа
-  status: |
-    pass
+  status: pass
 
 - summary: |
     Фильтрация товаров по категории
-  status: |
-    pass
+  status: pass
  
 - summary: |
     Фильтрация товаров по производителю
-  status: |
-    pass
+  status: pass
  
 - summary: |
     Проверка локализации
-  status: |
-    fail
+  status:  fail
 
 - summary: |
     Сортировка по возрастанию цены
-  status: |
-    pass
+  status: pass
 
 - summary: |
     Сортировка по убыванию цены
-  status: |
-    pass
+  status: pass
