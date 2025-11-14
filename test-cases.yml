@@ -7,7 +7,7 @@
     Нет
   steps:
     - Открыть браузер
-    - Перейти по URL: https://products-store-ru.hexlet.app
+    - Перейти по URL https://products-store-ru.hexlet.app
     - Дождаться полной загрузки страницы
   expected-result:
     - Главная страница загружается без ошибок
