@@ -155,5 +155,5 @@
     Видно среднее значение рейтинга
   actual-result: |
     Блок рейтинга отсутствует
-  evidence:
-      - Скриншот https://github.com/den-stail-prog/qa-engineer-project-84/blob/main/Скриншоты%20багов/_2025-11-24_154657_products-store-ru.hexlet.app.png
+  evidence: |
+    Скриншот https://github.com/den-stail-prog/qa-engineer-project-84/blob/main/Скриншоты%20багов/_2025-11-24_154657_products-store-ru.hexlet.app.png
