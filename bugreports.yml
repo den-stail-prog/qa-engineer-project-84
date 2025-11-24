@@ -224,3 +224,36 @@
   evidence: |
     Скриншот https://github.com/den-stail-prog/qa-engineer-project-84/blob/main/Скриншоты%20багов/2025-11-24_165105_products-store-ru.hexlet.app.png
     
+- summary: |
+   Ошибка 500 при переходе к оплате (анализ через DevTools)
+  environment: | 
+    Браузер Opera 135.0.7049.115
+    ОС Windows 11 Pro 64 bit 26100.4946  
+  steps-to-reproduce: |
+    1. Открыть интернет‑магазин в браузере
+    2. Добавить товары в корзину
+    3. Перейти в корзину и нажать «Оформить заказ»
+    4. Открыть DevTools
+    5. Перейти на вкладку «Network»
+    6. Обновить страницу или повторить действие
+  expected-result: |
+    Пользователь успешно перенаправляется на страницу оплаты. В DevTools виден успешный HTTP‑ответ (код 200)
+  actual-result: |
+    В консоли (вкладка «Console») отображаются ошибки 500 (Internal Server Error)
+  evidence: |
+    Скриншот https://github.com/den-stail-prog/qa-engineer-project-84/blob/main/Скриншоты%20багов/2025-11-24%20172440.png
+
+- summary: |
+    Корзина не очищается после успешного оформления заказа
+  environment: | 
+    Браузер Opera 135.0.7049.115
+    ОС Windows 11 Pro 64 bit 26100.4946  
+  steps-to-reproduce: |
+    1. Добавить несколько товаров в корзину
+    2. Перейти в корзину 
+    3. Нажать «Оформить заказ»
+  expected-result: |
+    Корзина пуста
+  actual-result: |
+    В корзине сохраняются все товары, которые были до оплаты
+    
