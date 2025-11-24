@@ -209,4 +209,18 @@
   actual-result: |
     Отсутствие страницы оплаты 
 
+- summary: |
+    В разделах категорий не отображаются хештеги
+  environment: | 
+    Браузер Opera 135.0.7049.115
+    ОС Windows 11 Pro 64 bit 26100.4946  
+  steps-to-reproduce: |
+    1. Открыть главную страницу магазина  
+    2. Открыть раздел категории
+  expected-result: |
+    Отображается список категорий с сопутствующими хештегами
+  actual-result: |
+    Хештеги отсутствуют — виден только список категорий без тематических меток
+  evidence: |
+    Скриншот https://github.com/den-stail-prog/qa-engineer-project-84/blob/main/Скриншоты%20багов/2025-11-24_165105_products-store-ru.hexlet.app.png
     
